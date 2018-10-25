@@ -1,0 +1,1 @@
+go build -o $GOBIN/$(basename "$PWD") $(pwd)/$(ls $(pwd) | grep *.go) ;
