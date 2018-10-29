@@ -1,1 +1,4 @@
-go run $(pwd) ;
+echo ""
+go run $(pwd)
+echo ""
+echo "";
