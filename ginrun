@@ -1,0 +1,4 @@
+echo ""
+gin run $(pwd)/main.go
+echo ""
+echo "";
