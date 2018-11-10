@@ -1,1 +1,1 @@
-go build -o $GOPATH/$(basename "$PWD") $(pwd)/$(ls $(pwd) | grep *.go) ;
+go build -o $GOPATH/bin/$(basename "$PWD") $(pwd)/$(ls $(pwd) | grep *.go) ;

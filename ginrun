@@ -1,4 +1,4 @@
 echo ""
-gin run $(pwd)/main.go
+gin -p 9999 run $(pwd)/main.go
 echo ""
 echo "";

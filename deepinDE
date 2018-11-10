@@ -1,0 +1,1 @@
+sudo pacman -S deepin deepin-extra deepin-manjaro && p -S lightdm && sudo systemctl enable lightdm --force && /usr/bin/cp -rf /etc/skel/. ~ ;
